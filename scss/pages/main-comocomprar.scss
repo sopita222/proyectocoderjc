@@ -1,0 +1,11 @@
+.content-price {
+    @extend %price1;
+    
+}
+.content-price1 {
+	@extend %price2;
+}
+.content-price3 {
+	@extend %price3;
+}
+	

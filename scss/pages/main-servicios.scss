@@ -1,0 +1,70 @@
+.plans {
+	padding: 100px 0;
+	@include flexbox2 (flex, column, center);
+	background-color: $background-color_5;
+	hr {
+		width: 5%;
+	}
+}
+.plans-content {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 25px;
+}
+.plan-1 {
+	flex-basis: calc(33.3% - 20px);
+	border: 1px solid #515151;
+	padding: 30px 50px;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	span {
+		font-size: 40px;
+		font-weight: 800;
+		color: $color_1;
+	}
+	h3 {
+		padding: 8px;
+		font-size: 25px;
+		color: $color_1;
+		margin: 25px 0 35px 0;
+		background: linear-gradient(90deg, rgba(245,99,72,1) 0% rgba(254,140,32,1) 100%);
+	}
+	p {
+		margin-bottom: 20px;
+		color: $color_4;
+	}
+}
+
+.information {
+	background-color: $background-color_6;
+}
+.information-content {
+	display: flex;
+}
+.information-txt {
+	flex-basis: 50%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+	span {
+		color: $color_4;
+	}
+}
+.information-img {
+	flex-basis: 50%;
+	img {
+		height: 100%;
+	}
+}
+.service {
+	margin: 50px 0;
+	display: flex;
+	align-items: center;
+	h3 {
+		font-size: 17px;
+		color: $color_1;
+		font-weight: 500;
+		margin-left: 15px;
+	}
+}

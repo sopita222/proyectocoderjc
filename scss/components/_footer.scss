@@ -1,0 +1,119 @@
+footer {
+	position: relative;
+	bottom: 0;
+}
+.footer-left {
+	img {
+		width: 200px;
+	}
+}
+.footer-distributed {
+	background-color: $background-color_3;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+	.footer-left {
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+	}
+	.footer-center {
+		display: inline-block;
+		vertical-align: top;
+		width: 35%;
+		i {
+			display: inline-block;
+			width: 35px;
+			height: 35px;
+			cursor: pointer;
+			background-color: $background-color_1;
+			border-radius: 2px;
+			font-size: 20px;
+			color: $color_1;
+			text-align: center;
+			line-height: 35px;
+			margin-right: 3px;
+			margin-bottom: 5px;
+		}
+		p {
+			display: inline-block;
+			color: $color_1;
+			vertical-align: middle;
+			margin: 0;
+			span {
+				display: block;
+				font-weight: normal;
+				font-size: 14px;
+				line-height: 2;
+			}
+			a {
+				color: $color_9;
+				text-decoration: none;
+			}
+		}
+	}
+	.footer-right {
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+	}
+	.footer-links {
+		color: $color_1;
+		margin: 20px 0 12px;
+		a {
+			display: inline-block;
+			line-height: 1.8;
+			text-decoration: none;
+			color: $color_7;
+		}
+	}
+	.footer-company-name {
+		color: $color_8;
+		font-size: 14px;
+		font-weight: normal;
+		margin: 0;
+	}
+	.footer-company-about {
+		line-height: 20px;
+		color: $color_10;
+		font-size: 13px;
+		font-weight: normal;
+		margin: 0;
+		span {
+			display: flex;
+			color: $color_1;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+	}
+	.footer-icons {
+		margin-top: 25px;
+		a {
+			display: inline-block;
+			width: 35px;
+			height: 35px;
+			cursor: pointer;
+			background-color: $background-color_1;
+			border-radius: 2px;
+			font-size: 20px;
+			color: $color_1;
+			text-align: center;
+			line-height: 35px;
+			margin-right: 3px;
+			margin-bottom: 5px;
+			&:hover {
+				background-color: $background-color_4;
+			}
+		}
+	}
+}
+.footer-links {
+	a {
+		&:hover {
+			color: $color_9;
+		}
+	}
+}

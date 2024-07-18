@@ -1,0 +1,84 @@
+.popular {
+	padding: 100px 0;
+	text-align: center;
+}
+h2 {
+	color: $color_1;
+	font-size: 35px;
+	margin-bottom: 45px;
+}
+.popular-content {
+	display: flex;
+	justify-content: space-between;
+	img {
+		width: 150px;
+	}
+}
+
+.product-content {
+	@include grid (3, 1fr, 50px);
+}
+.product-1 {
+	background-color: $background-color_3;
+}
+.product-text {
+	padding: 50px 30px;
+}
+h3 {
+	font-size: 20px;
+	color: $color_1;
+	margin-bottom: 20px;
+}
+.price {
+	@include flexbox1 (flex, space-between, center);
+	p {
+		font-size: 17px;
+		color: $color_2;
+	}
+}
+
+.contact1 {
+	padding: 150px 300px;
+}
+.contact-content {
+	background-color: $background-color_3;
+	text-align: center;
+	padding: 50px;
+	border-radius: 50px;
+	form {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+	}
+	input {
+		padding: 18px 25px;
+		background-color: $background-color_4;
+		border: 0;
+		border-radius: 25px;
+		outline: none;
+		margin-right: 10px;
+		color: $color_1;
+		font-size: 17px;
+	}
+}
+
+::placeholder {
+	color: $color_3;
+	font-size: 17px;
+}
+
+.link {
+	ul {
+		display: flex;
+		li {
+			>a {
+				font-size: 17px;
+				color: $color_1;
+				margin-right: 20px;
+				&:hover {
+					color: $color_2;
+				}
+			}
+		}
+	}
+}

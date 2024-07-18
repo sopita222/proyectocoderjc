@@ -1,0 +1,27 @@
+@mixin flexbox1 ($dis, $justify-c, $align-it) {
+    display: $dis;
+    justify-content: $justify-c;
+    align-items: $align-it;
+   
+}
+
+@mixin flexbox2 ($dis1, $flex-d, $align-it2) {
+    display: $dis1;
+    flex-direction: $flex-d;
+    align-items: $align-it2;
+}
+
+@mixin grid ($columnas, $fr, $espacio) {
+    display: grid;
+    grid-template-columns: repeat($columnas, $fr);
+    gap: $espacio;
+}
+
+
+@mixin grid2 ($columnas2, $fr2, $columnas3, $fr3, $espacio2) {
+    display: grid;
+    grid-template-columns: $columnas2 $fr2;
+    grid-template-rows: $columnas3 $fr3;
+    grid-template-areas: "form info" "form map";
+    gap: $espacio2;
+}

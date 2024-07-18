@@ -1,0 +1,50 @@
+%price1 {
+    background: url(images/images/sonicwallpaper.jpg) no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	min-height: 80vh;
+	padding: 80px 0;
+	text-align: center;
+	justify-content: center;
+	p {
+		color: $color_1;
+	}
+}
+
+%price2 {
+    background: url(images/images/valorantwallpaper1.jpeg) no-repeat center;
+    background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	min-height: 80vh;
+	padding: 80px 0;
+	text-align: center;
+	justify-content: center;
+	p {
+		color: $color_1;
+	}
+}
+
+%price3 {
+    background: url(images/images/lolwallpaper.jpg) no-repeat center;
+    background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	min-height: 80vh;
+	padding: 80px 0;
+	text-align: center;
+	justify-content: center;
+	p {
+		color: $color_1;
+	}
+}

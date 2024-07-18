@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,9 +12,10 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #1B1726;
-}
+} */
 
-img {
+
+/**img {
     max-width: 100%;
 }
 
@@ -57,9 +58,9 @@ img {
     font-size: 17px;
     color: #E0E0E0;
     margin-bottom: 45pxS;
-}
+}*/
 
-.buttons {
+/**.buttons {
     display: flex;
 }
 
@@ -76,9 +77,9 @@ img {
 
 .btn-1:hover {
     background-color: #FF5A2C;
-}
+}*/
 
-.popular {
+/**.popular {
     padding: 100px 0;
     text-align: center;
 }
@@ -96,9 +97,9 @@ h2 {
 
 .popular-content img {
     width: 150px;
-}
+}*/
 
-.product-content {
+/**.product-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
@@ -133,9 +134,9 @@ h3 {
     padding: 5px 25px;
     background-color: #FF5A2C;
     margin-right: 0;
-}
+}*/
 
-.contact1 {
+/**.contact1 {
     padding: 150px 300px;
 }
 
@@ -161,9 +162,9 @@ h3 {
     margin-right: 10px;
     color: #FFFFFF;
     font-size: 17px;   
-}
+}*/
 
-::placeholder {
+/**::placeholder {
     color: #E0E0E0;
     font-size: 17px;
 }
@@ -172,11 +173,11 @@ h3 {
     background-color: #FF5A2C;
     cursor: pointer;
     margin-right: 0;
-}
+}*/
 
 
 
-.link ul {
+/**.link ul {
     display: flex;
 }
 
@@ -189,11 +190,11 @@ h3 {
 
 .link ul li > a:hover {
     color: #FF5A2C;
-}
+}*/
 
 /* CSS PAGINA SERVICIOS*/
 
-.plans {
+/**.plans {
     padding: 100px 0;
     display: flex;
     flex-direction: column;
@@ -238,9 +239,9 @@ h3 {
 .plan-1 p {
     margin-bottom: 20px;
     color: #3F384D;
-}
+}*/
 
-.information {
+/**.information {
     background-color: #1D1829;
 }
 
@@ -279,11 +280,11 @@ h3 {
     font-weight: 500;
     margin-left: 15px;
 
-}
+}*/
 
 /* productos */
 
-.product {
+/**.product {
     padding: 80px 0;
 }
 
@@ -294,7 +295,7 @@ h3 {
 .card img {
     width: 300px;
     height: 300px;
-}
+}*/
 
 /* contacto */
 

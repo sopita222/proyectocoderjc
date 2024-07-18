@@ -1,0 +1,142 @@
+@media (max-width:991px) {
+	.header {
+		min-height: 0vh;
+		padding: 80px 30px 50px 30px;
+	}
+	.header-txt {
+		text-align: center;
+		flex-basis: 100%;
+		h1 {
+			font-size: 50px;
+			margin-bottom: 15px;
+		}
+	}
+	.butons {
+		justify-content: center;
+	}
+	.btn-1 {
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+	.popular {
+		display: none;
+	}
+	.product {
+		padding: 30px;
+	}
+	.product-content {
+		grid-template-columns: repeat(1,1fr);
+		gap: 30px;
+	}
+	.product-1 {
+		img {
+			width: 100%;
+		}
+	}
+	.contact1 {
+		padding: 30px;
+	}
+	form {
+		flex-direction: column;
+	}
+	input {
+		margin: 0 0 20px 0;
+	}
+	.link {
+		ul {
+			margin-top: 20px;
+			flex-direction: column;
+			text-align: center;
+		}
+	}
+	.plans {
+		padding: 30px;
+	}
+	.plans-content {
+		flex-direction: column;
+		margin-top: 5px;
+	}
+	.plan-1 {
+		margin-bottom: 30px;
+	}
+	.information {
+		padding: 30px;
+	}
+	.information-content {
+		flex-direction: column;
+	}
+	.information-txt {
+		order: -2;
+		padding: 0;
+		margin: 30px 0;
+	}
+	.card-body {
+		flex-direction: column;
+		margin-top: 5px;
+		padding: 30px;
+	}
+	.contactUs {
+		padding: 20px;
+	}
+	.box {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-template-areas: "form" "info" "map";
+	}
+	.formBox {
+		.row50 {
+			display: flex;
+			gap: 0;
+			flex-direction: column;
+		}
+	}
+	.inputBox {
+		width: 100%;
+	}
+	.contact {
+		padding: 30px;
+	}
+	.map {
+		min-height: 300px;
+		padding: 0;
+	}
+	.content-price {
+		min-height: 0vh;
+		padding: 80px 30px 50px 30px;
+	}
+	.content-price1 {
+		min-height: 0vh;
+		padding: 80px 30px 50px 30px;
+	}
+	.content-price3 {
+		min-height: 0vh;
+		padding: 80px 30px 50px 30px;
+	}
+	footer {
+		position: static;
+	}
+	.footer-distributed {
+		.footer-links {
+			display: block;
+			width: 100%;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+		.footer-center {
+			display: block;
+			width: 100%;
+			margin-bottom: 40px;
+			text-align: center;
+			i {
+				margin-left: 0;
+			}
+		}
+		.footer-right {
+			display: block;
+			width: 100%;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+	}
+}
