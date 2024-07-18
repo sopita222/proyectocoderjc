@@ -8,14 +8,14 @@
 
 @import "./utilities/globales";
 
+@import "./components/footer";
+@import "./components/header";
+
 @import "./pages/main-index.scss";
 @import "./pages/main-comocomprar.scss";
 @import "./pages/main-contacto.scss";
 @import "./pages/main-productos.scss";
 @import "./pages/main-servicios.scss";
-
-@import "./components/footer";
-@import "./components/header";
 
 @import "./utilities/media-queries";
 
