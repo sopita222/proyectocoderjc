@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 .content-price {
-  background: url(images/images/sonicwallpaper.jpg) no-repeat center;
+  background: url(/images/images/sonicwallpaper.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -17,7 +17,7 @@
 }
 
 .content-price1 {
-  background: url(images/images/valorantwallpaper1.jpeg) no-repeat center;
+  background: url(/images/images/valorantwallpaper1.jpeg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -34,7 +34,7 @@
 }
 
 .content-price3 {
-  background: url(images/images/lolwallpaper.jpg) no-repeat center;
+  background: url(/images/images/lolwallpaper.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -531,7 +531,7 @@ img {
 }
 
 .header {
-  background-image: url(images/images/bg.jpg);
+  background-image: url(/images/images/bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
